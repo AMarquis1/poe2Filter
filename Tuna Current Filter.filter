@@ -1,6 +1,6 @@
 #Highlighted Precursor Tablet
 Hide
- BaseType "Scroll of Wisdom" "Regal Shard" "Uncut Support Gem"
+ BaseType "Scroll of Wisdom" "Uncut Support Gem"
  SetFontSize 50
  SetTextColor 0 0 0
  SetBorderColor 0 0 0
@@ -122,8 +122,8 @@ Show
  
 # Highlight Scroll of Wisdom
 Show
- BaseType "Scroll of Wisdom" "Orb of Transmutation" "Orb of Augmentation"
- SetFontSize 50
+ BaseType "Scroll of Wisdom" "Orb of Transmutation" "Orb of Augmentation" "regal shard" "breach splinter"
+ SetFontSize 30
  SetTextColor 0 0 0
  SetBorderColor 0 0 0
  SetBackgroundColor 184 134 11  # Dark golden color
