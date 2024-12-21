@@ -103,7 +103,7 @@ Show
  SetBackgroundColor 0 0 0 
  
 Show
- BaseType "Chaos orb" "Exalted Orb" "Orb of Annulment" "Mirror of Kalandra" "Divine Orb" "Distilled Disgust" "Distilled Fear" "Distilled Isolation" "Distilled Suffering" "Greater Jeweller's Orb" "Perfect Jeweller's Orb" "Uncut Skill gem" "Uncut Spirit gem"
+ BaseType "Mirror of Kalandra" "Divine Orb" "Distilled Disgust" "Distilled Fear" "Distilled Isolation" "Distilled Suffering" "Greater Jeweller's Orb" "Perfect Jeweller's Orb" "Uncut Skill gem" "Uncut Spirit gem"
  SetFontSize 50
  SetTextColor 255 0 0  # Red text
  SetBorderColor 255 0 0  # Red border
@@ -119,6 +119,18 @@ Show
  SetBackgroundColor 235 235 235  # Dark golden color
  PlayAlertSound 2 300  # Correct "tink" sound
  MinimapIcon 0 Red Star
+
+# Currency Tier B: Exalt
+Show
+Class "Currency"
+BaseType "Exotic Coinage" "Exalted Orb" "Chaos orb" "Orb of Annulment"
+SetTextColor 255 207 92
+SetBorderColor 255 207 92
+SetBackgroundColor 76 51 12
+PlayAlertSound 2 300
+PlayEffect Yellow
+MinimapIcon 1 Yellow Circle
+SetFontSize 45
  
 # Highlight Scroll of Wisdom
 Show
