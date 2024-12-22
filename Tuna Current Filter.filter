@@ -42,6 +42,10 @@ BaseType == "Expert Bombard Crossbow" "Expert Forlorn crossbow"
     SetBorderColor 0 0 0 255
     SetBackgroundColor 249 150 25 255
 
+#--------------------------
+# Rings, Amulets, Belts
+#--------------------------
+
 Show
 Class "Rings" "Amulets" "Belts"
 Rarity Rare
@@ -50,6 +54,17 @@ SetTextColor 233 206 75
 SetBorderColor 233 206 75
 PlayEffect Yellow
 MinimapIcon 1 Yellow Diamond
+
+
+Show
+Rarity Normal
+Class "Rings" "Amulets" "Belts"
+SetFontSize 40
+
+Show
+Class "Rings" "Amulets" "Belts"
+Rarity Magic
+SetFontSize 40
 
 #Normal Weapons & FLasks Item Filtering
 Hide
