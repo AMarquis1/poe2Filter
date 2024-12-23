@@ -36,7 +36,7 @@ Show
  SetBackgroundColor 235 235 235  # Dark golden color
 
 Show
-BaseType == "expert sombre gloves" "expert jewelled gloves" "expert intricate gloves" "expert wrapped sandals" "expert silk slippers" "expert feathered sandals" "expert hexer's robe" "expert keth raiment" "expert altar robe" "expert wicker tiara" "expert chain tiara" "expert feathered tiara" "expert antler focus" "expert crystal focus" "expert plumed focus" "advanced blazon crest shield" "chiming staff" "attuned wand"
+BaseType == "expert sombre gloves" "expert jewelled gloves" "expert intricate gloves" "expert wrapped sandals" "expert silk slippers" "expert feathered sandals" "expert hexer's robe" "expert keth raiment" "expert altar robe" "expert wicker tiara" "expert chain tiara" "expert feathered tiara" "expert antler focus" "expert crystal focus" "expert plumed focus" "expert blazon crest shield" "advanced blazon crest shield" "chiming staff" "attuned wand"
     SetFontSize 37
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
