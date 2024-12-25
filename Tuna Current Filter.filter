@@ -36,11 +36,12 @@ Show
  SetBackgroundColor 235 235 235  # Dark golden color
 
 Show
-BaseType == "Expert Bombard Crossbow" "Expert Forlorn crossbow"
+BaseType == "Expert Forlorn crossbow" "Stellar Amulet" "heavy Belt" "Sapphire Ring" "Expert Slicing Quarterstaff" "Expert Long Quarterstaff"
     SetFontSize 37
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
     SetBackgroundColor 249 150 25 255
+    MinimapIcon 0 Red Square
 
 #--------------------------
 # Rings, Amulets, Belts
@@ -54,17 +55,6 @@ SetTextColor 233 206 75
 SetBorderColor 233 206 75
 PlayEffect Yellow
 MinimapIcon 1 Yellow Diamond
-
-
-Show
-Rarity Normal
-Class "Rings" "Amulets" "Belts"
-SetFontSize 40
-
-Show
-Class "Rings" "Amulets" "Belts"
-Rarity Magic
-SetFontSize 40
 
 #Normal Weapons & FLasks Item Filtering
 Hide
@@ -87,7 +77,7 @@ Hide
 #Highlighted Bases
 Show
     Rarity Normal
-    BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Expert Dualstring Bow" "Expert Studded Vest" "Expert Hexer's Robe" "Heavy Belt" "Azure Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Bloodstone Amulet" "Stellar Amulet" "Solar Amulet" "Gold Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
+    BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Expert Dualstring Bow" "Expert Hexer's Robe" "Heavy Belt" "Azure Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Bloodstone Amulet" "Stellar Amulet" "Solar Amulet" "Gold Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
     SetFontSize 50
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
@@ -97,7 +87,7 @@ Show
  #Highlighted Bases
 Show
     Rarity Magic
-    BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Expert Dualstring Bow" "Expert Studded Vest" "Expert Hexer's Robe" "Heavy Belt" "Azure Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Bloodstone Amulet" "Stellar Amulet" "Solar Amulet" "Gold Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
+    BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Expert Dualstring Bow" "Expert Hexer's Robe" "Heavy Belt" "Azure Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Bloodstone Amulet" "Stellar Amulet" "Solar Amulet" "Gold Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
     SetFontSize 50
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
