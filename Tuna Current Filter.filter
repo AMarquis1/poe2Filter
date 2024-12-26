@@ -27,7 +27,7 @@ Show
  PlayAlertSound 5 300
 
 #Highlighted Precursor Tablet
-Show
+Hide
  BaseType "Waystone" 
  WaystoneTier 1 2 3 4 5 6 7 8 9 10 11
  SetFontSize 50
@@ -35,8 +35,9 @@ Show
  SetBorderColor 235 235 235
  SetBackgroundColor 235 235 235  # Dark golden color
 
+#Chance bases
 Show
-BaseType == "Expert Forlorn crossbow" "Stellar Amulet" "heavy Belt" "Sapphire Ring" "Expert Slicing Quarterstaff" "Expert Long Quarterstaff"
+BaseType == "Solar Amulet" "Stellar Amulet" "heavy Belt" "Sapphire Ring"
     SetFontSize 37
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
@@ -59,7 +60,7 @@ MinimapIcon 1 Yellow Diamond
 #Highlighted Bases
 Show
     Rarity Normal
-    BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Expert Dualstring Bow" "Expert Hexer's Robe" "Heavy Belt" "Azure Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Bloodstone Amulet" "Stellar Amulet" "Solar Amulet" "Gold Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
+    BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Gold Amulet" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
     SetFontSize 50
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
@@ -69,7 +70,7 @@ Show
  #Highlighted Bases
 Show
     Rarity Magic
-    BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Expert Dualstring Bow" "Expert Hexer's Robe" "Heavy Belt" "Azure Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Lunar Amulet" "Bloodstone Amulet" "Stellar Amulet" "Solar Amulet" "Gold Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
+    BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Gold Amulet" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
     SetFontSize 50
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
@@ -123,7 +124,7 @@ Show
  SetBackgroundColor 184 134 11  # Dark golden color
  
 # Highlight Rune Items with Light Green Color
-Show
+Hide 
  BaseType "Rune"
  SetFontSize 50
  SetTextColor 0 0 0  # Black text color
