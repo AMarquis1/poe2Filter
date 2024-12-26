@@ -26,7 +26,6 @@ Show
  MinimapIcon 0 Red Square
  PlayAlertSound 5 300
 
-
 Hide
  BaseType "Waystone" 
  WaystoneTier 1 2 3 4 5 6 7 8 9 10 11
@@ -45,10 +44,29 @@ BaseType == "Solar Amulet" "Stellar Amulet" "heavy Belt" "Sapphire Ring"
     SetBackgroundColor 249 150 25 255
     MinimapIcon 0 Red Square
 
-#Mes bases
+#BRANCHE À LARRY
 Show
+Rarity normal
 BaseType == "Expert Hexer's Robe" "Expert Intricate Gloves" "expert feathered sandals" "expert feathered tiara" "expert plumed focus" "advanced blazon crest shield" "advanced sigil crest shield" "advanced emblem crest shield" "advanced jingling crest shield" "advanced sectarian crest shield" "advanced omen crest shield" "chiming staff" "attuned wand"
-    SetFontSize 37
+    SetFontSize 30
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 0 0 0 #fond noir
+    
+
+Show
+Rarity magic
+BaseType == "Expert Hexer's Robe" "Expert Intricate Gloves" "expert feathered sandals" "expert feathered tiara" "expert plumed focus" "advanced blazon crest shield" "advanced sigil crest shield" "advanced emblem crest shield" "advanced jingling crest shield" "advanced sectarian crest shield" "advanced omen crest shield" "chiming staff" "attuned wand"
+    SetFontSize 40
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 0 0 0 #fond noir
+    
+
+Show
+Rarity rare
+BaseType == "Expert Hexer's Robe" "Expert Intricate Gloves" "expert feathered sandals" "expert feathered tiara" "expert plumed focus" "advanced blazon crest shield" "advanced sigil crest shield" "advanced emblem crest shield" "advanced jingling crest shield" "advanced sectarian crest shield" "advanced omen crest shield" "chiming staff" "attuned wand"
+    SetFontSize 50
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
     SetBackgroundColor 249 150 25 255
@@ -103,7 +121,7 @@ Show
  SetFontSize 18  # Half size
  SetTextColor 255 255 255
  SetBorderColor 0 0 0  # Black border
- SetBackgroundColor 0 0 0 
+ SetBackgroundColor 0 0 0 #fond noir
  
 Show
  BaseType "Mirror of Kalandra" "Divine Orb" "Distilled Disgust" "Distilled Fear" "Distilled Isolation" "Distilled Suffering" "Greater Jeweller's Orb" "Perfect Jeweller's Orb" "Uncut Skill gem" "Uncut Spirit gem"
