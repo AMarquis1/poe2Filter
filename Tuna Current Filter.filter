@@ -60,6 +60,16 @@ MinimapIcon 1 Yellow Diamond
 
 #Highlighted Bases
 Show
+    BaseType Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby"
+    SetFontSize 37
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 249 150 25 255
+    MinimapIcon 0 Red Square
+
+
+#Highlighted Bases
+Show
     Rarity Normal
     BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Gold Amulet" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
     SetFontSize 50
