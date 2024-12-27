@@ -99,7 +99,7 @@ Show
 Show
     Rarity Normal
     BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Gold Amulet" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
-    SetFontSize 50
+    SetFontSize 40
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
     SetBackgroundColor 184 134 11  # Dark golden color
@@ -109,7 +109,7 @@ Show
 Show
     Rarity Magic
     BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Gold Amulet" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
-    SetFontSize 50
+    SetFontSize 40
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
     SetBackgroundColor 184 134 11  # Dark golden color
