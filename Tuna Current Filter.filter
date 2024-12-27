@@ -58,9 +58,9 @@ Show
 Rarity magic
 BaseType == "Expert Hexer's Robe" "Expert Intricate Gloves" "expert feathered sandals" "expert feathered tiara" "expert plumed focus" "advanced blazon crest shield" "advanced sigil crest shield" "advanced emblem crest shield" "advanced jingling crest shield" "advanced sectarian crest shield" "advanced omen crest shield" "chiming staff" "attuned wand"
     SetFontSize 40
-    SetTextColor 255 255 255
+    SetTextColor 0 0 0 #texte noir
     SetBorderColor 0 0 0 255
-    SetBackgroundColor 0 0 0 #fond noir
+    SetBackgroundColor 0 0 255 #fond bleu
     
 
 Show
