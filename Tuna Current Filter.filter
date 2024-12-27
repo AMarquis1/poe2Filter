@@ -75,20 +75,27 @@ BaseType == "Expert Hexer's Robe" "Expert Intricate Gloves" "expert feathered sa
 Show
     Rarity Normal
     BaseType ==  "Thawing Charm" "Stone Charm"
-    SetFontSize 40
+    SetFontSize 35
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
     SetBackgroundColor 255 255 255 255
-    PlayEffect Red
+    #PlayEffect Red
 
 Show
     Rarity Magic
     BaseType ==  "Thawing Charm" "Stone Charm"
-    SetFontSize 40
+    SetFontSize 35
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
     SetBackgroundColor 255 255 255 255
-    PlayEffect Red
+
+Hide
+    Rarity normal
+    BaseType ==  "sapphire charm" "ruby Charm" "topaz charm"
+
+Hide
+    Rarity magic
+    BaseType ==  "sapphire charm" "ruby Charm" "topaz charm"    
 
 #--------------------------
 # Rings, Amulets, Belts
