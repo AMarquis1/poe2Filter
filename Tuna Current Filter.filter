@@ -169,7 +169,7 @@ Hide
  SetBorderColor 0 0 0  # Black border color
  SetBackgroundColor 111 255 111  # Light green background
  
-# Highlight Currency Items with Subtle Brown/Gold Color (Excludes Specific BaseTypes Above)
+# Highlight Currency Items with Subtle Brown/Gold Color (Excludes Specific BaseTypes Above)   #donc y reste quoi comme currency?! pr mériter un red diamond??
 Show
  Class "Currency"
  SetFontSize 40  # Reduced font size
@@ -177,7 +177,7 @@ Show
  SetBorderColor 255 223 0  # RGB for gold border
  SetBackgroundColor 204 164 0  # RGB for darker gold background
  PlayAlertSound 2 150  # Halved volume for generic currency
- MinimapIcon 0 Red Diamond
+
  
 # Highlight Currency Items with Subtle Brown/Gold Color (Excludes Specific BaseTypes Above)
 Show
