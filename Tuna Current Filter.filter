@@ -15,6 +15,15 @@ Hide
  SetBorderColor 0 0 0
  SetBackgroundColor 184 134 11  # Dark golden color
 
+ #Hide Uncuts
+Hide
+ BaseType "Uncut Spirit Gem"
+ ItemLevel 16 15
+ SetFontSize 50
+ SetTextColor 0 0 0
+ SetBorderColor 0 0 0
+ SetBackgroundColor 184 134 11  # Dark golden color
+
 
 Show
  BaseType "Waystone" 
@@ -128,7 +137,7 @@ SetFontSize 45
 
 #À hide en "leecher mode, sauf les breach splinter?
 Show
- BaseType "Orb of Transmutation" "Orb of Augmentation" "regal shard" "breach splinter"
+ BaseType "Orb of Augmentation" "breach splinter"
  SetFontSize 30
  SetTextColor 0 0 0
  SetBorderColor 0 0 0
@@ -141,6 +150,9 @@ Hide
  SetTextColor 0 0 0  # Black text color
  SetBorderColor 0 0 0  # Black border color
  SetBackgroundColor 111 255 111  # Light green background
+
+Hide
+  BaseType "Blacksmith's whetstone"
  
 # Highlight Currency Items with Subtle Brown/Gold Color (Excludes Specific BaseTypes Above)
 Show
@@ -165,5 +177,3 @@ Show
     Rarity Magic
  Hide
     Rarity Normal
-    
-
