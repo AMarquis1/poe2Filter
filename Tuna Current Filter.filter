@@ -24,6 +24,8 @@ Hide
  SetBorderColor 0 0 0
  SetBackgroundColor 184 134 11  # Dark golden color
 
+ Hide
+  BaseType "Orb of Transmutation" "Regal shard" "Blacksmith's whetstone" "Orb of Augmentation"
 
 Show
  BaseType "Waystone" 
@@ -150,9 +152,6 @@ Hide
  SetTextColor 0 0 0  # Black text color
  SetBorderColor 0 0 0  # Black border color
  SetBackgroundColor 111 255 111  # Light green background
-
-Hide
-  BaseType "Blacksmith's whetstone"
  
 # Highlight Currency Items with Subtle Brown/Gold Color (Excludes Specific BaseTypes Above)
 Show
