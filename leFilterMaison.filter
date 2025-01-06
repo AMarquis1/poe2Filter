@@ -66,12 +66,74 @@ Hide
 #Chance bases
 Show
 Rarity normal
-BaseType == "Stellar Amulet" "heavy Belt" "Sapphire Ring"
+BaseType == "Stellar Amulet" "heavy Belt" "Sapphire Ring" 
     SetFontSize 37
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 125 73 213
+    MinimapIcon 0 Red Square`
+
+Show
+Rarity rare
+BaseType == "stoic Sceptre"
+    SetFontSize 37
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 125 73 213
+    MinimapIcon 0 Red Square
+
+#BRANCHE À LARRY
+Show
+Rarity normal
+BaseType == "Expert Hexer's Robe" "Expert Intricate Gloves" "expert feathered sandals" "expert feathered tiara" "expert plumed focus" "advanced blazon crest shield" "advanced sigil crest shield" "advanced emblem crest shield" "advanced jingling crest shield" "advanced sectarian crest shield" "advanced omen crest shield" "chiming staff" "attuned wand"
+    SetFontSize 30
+    SetTextColor 255 255 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 0 0 0 #fond noir
+    
+
+Show
+Rarity magic
+BaseType == "Expert Hexer's Robe" "Expert Intricate Gloves" "expert feathered sandals" "expert feathered tiara" "expert plumed focus" "advanced blazon crest shield" "advanced sigil crest shield" "advanced emblem crest shield" "advanced jingling crest shield" "advanced sectarian crest shield" "advanced omen crest shield" "chiming staff" "attuned wand"
+    SetFontSize 40
+    SetTextColor 0 0 0 #texte noir
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 0 0 255 #fond bleu
+    
+
+Show
+Rarity rare
+BaseType == "Expert Hexer's Robe" "Expert Intricate Gloves" "expert feathered sandals" "expert feathered tiara" "expert plumed focus" "advanced blazon crest shield" "advanced sigil crest shield" "advanced emblem crest shield" "advanced jingling crest shield" "advanced sectarian crest shield" "advanced omen crest shield" "chiming staff" "attuned wand"
+    SetFontSize 50
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
     SetBackgroundColor 249 150 25 255
     MinimapIcon 0 Red Square
+
+Show
+    Rarity Normal
+    BaseType ==  "Thawing Charm" "Stone Charm"
+    SetFontSize 35
+    SetTextColor 50 130 165 255
+    SetBorderColor 50 130 165 255
+    SetBackgroundColor 255 255 255 255
+    #PlayEffect Red
+
+Show
+    Rarity Magic
+    BaseType ==  "Thawing Charm" "Stone Charm"
+    SetFontSize 35
+    SetTextColor 50 130 165 255
+    SetBorderColor 50 130 165 255
+    SetBackgroundColor 255 255 255 255
+
+Hide
+    Rarity normal
+    BaseType ==  "sapphire charm" "ruby Charm" "topaz charm"
+
+Hide
+    Rarity magic
+    BaseType ==  "sapphire charm" "ruby Charm" "topaz charm"    
 
 #--------------------------
 # Rings, Amulets, Belts
@@ -100,7 +162,7 @@ Show
 Show
     Rarity Normal
     BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Gold Amulet" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
-    SetFontSize 50
+    SetFontSize 40
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
     SetBackgroundColor 184 134 11  # Dark golden color
@@ -110,7 +172,7 @@ Show
 Show
     Rarity Magic
     BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Gold Amulet" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
-    SetFontSize 50
+    SetFontSize 40
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
     SetBackgroundColor 184 134 11  # Dark golden color
@@ -122,7 +184,7 @@ Hide
  SetFontSize 18  # Half size
  SetTextColor 255 255 255
  SetBorderColor 0 0 0  # Black border
- SetBackgroundColor 0 0 0 
+ SetBackgroundColor 0 0 0 #fond noir
  
 Show
  BaseType "Mirror of Kalandra" "Divine Orb" "Distilled Disgust" "Distilled Fear" "Distilled Isolation" "Distilled Suffering" "Greater Jeweller's Orb" "Perfect Jeweller's Orb"
@@ -173,7 +235,7 @@ Class "Currency"
  MinimapIcon 1 Yellow Circle
  
  
-# Highlight Currency Items with Subtle Brown/Gold Color (Excludes Specific BaseTypes Above)
+# Highlight Currency Items with Subtle Brown/Gold Color (Excludes Specific BaseTypes Above)   #donc y reste quoi comme currency?! pr mériter un red diamond??
 Show
  Class "Currency"
  SetFontSize 40  # Reduced font size
@@ -181,7 +243,7 @@ Show
  SetBorderColor 255 223 0  # RGB for gold border
  SetBackgroundColor 204 164 0  # RGB for darker gold background
  PlayAlertSound 2 150  # Halved volume for generic currency
- MinimapIcon 0 Red Diamond
+
  
 # Highlight Currency Items with Subtle Brown/Gold Color (Excludes Specific BaseTypes Above)
 Show
