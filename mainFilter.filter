@@ -1,0 +1,196 @@
+
+Hide
+ BaseType "Scroll of Wisdom" "Uncut Support Gem"
+ SetFontSize 50
+ SetTextColor 0 0 0
+ SetBorderColor 0 0 0
+ SetBackgroundColor 184 134 11  # Dark golden color
+
+Show
+ BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+ ItemLevel  19
+ SetFontSize 50
+ SetTextColor 0 0 0
+ SetBorderColor 0 0 0
+ SetBackgroundColor 184 134 11  # Dark golden color
+
+ Show
+ BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+ ItemLevel  20
+ SetFontSize 50
+ SetTextColor 255 0 0  # Red text
+ SetBorderColor 255 0 0  # Red border
+ SetBackgroundColor 255 255 255  # White background
+ PlayAlertSound 6 300  # Correct "tink" sound
+ MinimapIcon 0 Red Star
+
+#Hide Uncuts
+Hide
+ BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+ ItemLevel  18 17 16 15
+ SetFontSize 50
+ SetTextColor 0 0 0
+ SetBorderColor 0 0 0
+ SetBackgroundColor 184 134 11  # Dark golden color
+
+ #Hide Uncuts
+Hide
+ BaseType "Uncut Spirit Gem"
+ ItemLevel 16 15
+ SetFontSize 50
+ SetTextColor 0 0 0
+ SetBorderColor 0 0 0
+ SetBackgroundColor 184 134 11  # Dark golden color
+
+ Hide
+  BaseType "Orb of Transmutation" "Regal shard" "Blacksmith's whetstone" "Orb of Augmentation"
+
+Show
+ BaseType "Waystone" 
+ WaystoneTier 12 13 14 15 16
+ SetFontSize 50
+ SetTextColor 0 0 0
+ SetBorderColor 235 235 235
+ SetBackgroundColor 235 235 235  # Dark golden color
+ MinimapIcon 0 Red Square
+ PlayAlertSound 5 300
+
+
+Hide
+ BaseType "Waystone" 
+ WaystoneTier 1 2 3 4 5 6 7 8 9 10 11
+ SetFontSize 50
+ SetTextColor 0 0 0
+ SetBorderColor 235 235 235
+ SetBackgroundColor 235 235 235  # Dark golden color
+
+#Chance bases
+Show
+Rarity normal
+BaseType == "Solar Amulet" "Stellar Amulet" "heavy Belt" "Sapphire Ring"
+    SetFontSize 37
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 249 150 25 255
+    MinimapIcon 0 Red Square
+
+#--------------------------
+# Rings, Amulets, Belts
+#--------------------------
+
+Show
+Class "Rings" "Amulets" "Belts"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+#Highlighted Bases
+Show
+    BaseType "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby"
+    SetFontSize 37
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 249 150 25 255
+    MinimapIcon 0 Red Square
+
+
+#Highlighted Bases
+Show
+    Rarity Normal
+    BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Gold Amulet" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
+    SetFontSize 50
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetBackgroundColor 184 134 11  # Dark golden color
+    MinimapIcon 0 Red Diamond
+
+ #Highlighted Bases
+Show
+    Rarity Magic
+    BaseType "Incense Relic" "Seal Relic" "Urn Relic" "Coffer Relic" "Amphora Relic" "Tapestry Relic" "Diamond" "Ruby" "Emerald" "Sapphire" "Time-Lost Diamond" "Time-Lost Sapphire" "Time-Lost Emerald" "Time-Lost Ruby" "Gold Amulet" "Amethyst Ring" "Prismatic Ring" "Breach Ring"
+    SetFontSize 50
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetBackgroundColor 184 134 11  # Dark golden color
+    MinimapIcon 0 Red Diamond
+    
+# Highlight Gold
+Hide
+ BaseType == "Gold"
+ SetFontSize 18  # Half size
+ SetTextColor 255 255 255
+ SetBorderColor 0 0 0  # Black border
+ SetBackgroundColor 0 0 0 
+ 
+Show
+ BaseType "Mirror of Kalandra" "Divine Orb" "Distilled Disgust" "Distilled Fear" "Distilled Isolation" "Distilled Suffering" "Greater Jeweller's Orb" "Perfect Jeweller's Orb"
+ SetFontSize 50
+ SetTextColor 255 0 0  # Red text
+ SetBorderColor 255 0 0  # Red border
+ SetBackgroundColor 255 255 255  # White background
+ PlayAlertSound 6 300  # Correct "tink" sound
+ MinimapIcon 0 Red Star
+
+ Show
+ BaseType "Precursor Tablet" "Inscribed Ultimatum" "Djinn Barya" "Expedition Logbook"
+ SetFontSize 50
+ SetTextColor 3 0 255  # Dark golden color
+ SetBorderColor 255 223 0  # RGB for gold border
+ SetBackgroundColor 235 235 235  # Dark golden color
+ PlayAlertSound 2 300  # Correct "tink" sound
+ MinimapIcon 0 Red Star
+
+# Currency Tier B: Exalt
+Show
+Class "Currency"
+BaseType "Exotic Coinage" "Exalted Orb" "Chaos orb" "Orb of Annulment"
+SetTextColor 255 207 92
+SetBorderColor 255 207 92
+SetBackgroundColor 76 51 12
+PlayAlertSound 2 300
+PlayEffect Yellow
+MinimapIcon 1 Yellow Circle
+SetFontSize 45
+
+#À hide en "leecher mode, sauf les breach splinter?
+Show
+ BaseType "Orb of Augmentation" "breach splinter"
+ SetFontSize 30
+ SetTextColor 0 0 0
+ SetBorderColor 0 0 0
+ SetBackgroundColor 184 134 11  # Dark golden color
+ 
+# Highlight Rune Items with Light Green Color
+Hide 
+ BaseType "Rune"
+ SetFontSize 50
+ SetTextColor 0 0 0  # Black text color
+ SetBorderColor 0 0 0  # Black border color
+ SetBackgroundColor 111 255 111  # Light green background
+ 
+# Highlight Currency Items with Subtle Brown/Gold Color (Excludes Specific BaseTypes Above)
+Show
+ Class "Currency"
+ SetFontSize 40  # Reduced font size
+ SetTextColor 0 0 0
+ SetBorderColor 255 223 0  # RGB for gold border
+ SetBackgroundColor 204 164 0  # RGB for darker gold background
+ PlayAlertSound 2 150  # Halved volume for generic currency
+ MinimapIcon 0 Red Diamond
+ 
+# Highlight Currency Items with Subtle Brown/Gold Color (Excludes Specific BaseTypes Above)
+Show
+ Class "Currency"
+ SetFontSize 40  # Reduced font size
+ SetTextColor 0 0 0
+ SetBorderColor 255 223 0  # RGB for gold border
+ SetBackgroundColor 204 164 0  # RGB for darker gold background
+ PlayAlertSound 2 150  # Halved volume for generic currency
+
+ Hide
+    Rarity Magic
+ Hide
+    Rarity Normal
