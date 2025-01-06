@@ -73,6 +73,15 @@ BaseType == "Stellar Amulet" "heavy Belt" "Sapphire Ring"
     SetBackgroundColor 249 150 25 255
     MinimapIcon 0 Red Square
 
+Show
+  BaseType == "Expert Slicing Quarterstaff" "Expert Long Quarterstaff" "Expert Forlorn crossbow" "Stoic Sceptre"
+  Rarity Rare
+  SetFontSize 37
+  SetTextColor 0 0 0 255
+  SetBorderColor 0 0 0 255
+  SetBackgroundColor 249 150 25 255
+  MinimapIcon 0 Red Square
+
 #--------------------------
 # Rings, Amulets, Belts
 #--------------------------
