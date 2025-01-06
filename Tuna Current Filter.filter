@@ -6,6 +6,24 @@ Hide
  SetBorderColor 0 0 0
  SetBackgroundColor 184 134 11  # Dark golden color
 
+Show
+ BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+ ItemLevel  19
+ SetFontSize 50
+ SetTextColor 0 0 0
+ SetBorderColor 0 0 0
+ SetBackgroundColor 184 134 11  # Dark golden color
+
+ Show
+ BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+ ItemLevel  20
+ SetFontSize 50
+ SetTextColor 255 0 0  # Red text
+ SetBorderColor 255 0 0  # Red border
+ SetBackgroundColor 255 255 255  # White background
+ PlayAlertSound 6 300  # Correct "tink" sound
+ MinimapIcon 0 Red Star
+
 #Hide Uncuts
 Hide
  BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
@@ -100,7 +118,7 @@ Show
     MinimapIcon 0 Red Diamond
     
 # Highlight Gold
-Show
+Hide
  BaseType == "Gold"
  SetFontSize 18  # Half size
  SetTextColor 255 255 255
@@ -108,7 +126,7 @@ Show
  SetBackgroundColor 0 0 0 
  
 Show
- BaseType "Mirror of Kalandra" "Divine Orb" "Distilled Disgust" "Distilled Fear" "Distilled Isolation" "Distilled Suffering" "Greater Jeweller's Orb" "Perfect Jeweller's Orb" "Uncut Skill gem" "Uncut Spirit gem"
+ BaseType "Mirror of Kalandra" "Divine Orb" "Distilled Disgust" "Distilled Fear" "Distilled Isolation" "Distilled Suffering" "Greater Jeweller's Orb" "Perfect Jeweller's Orb"
  SetFontSize 50
  SetTextColor 255 0 0  # Red text
  SetBorderColor 255 0 0  # Red border
