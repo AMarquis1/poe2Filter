@@ -71,7 +71,7 @@ BaseType == "Stellar Amulet" "heavy Belt" "Sapphire Ring"
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
     SetBackgroundColor 125 73 213
-    MinimapIcon 0 Red Square`
+    MinimapIcon 0 Red Square
 
 Show
 Rarity rare
