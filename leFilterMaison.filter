@@ -146,7 +146,7 @@ Show
 # Currency Tier B: Exalt
 Show
 Class "Currency"
-BaseType "Exotic Coinage" "Exalted Orb" "Chaos orb" "Orb of Annulment"
+BaseType "Exotic Coinage" "Chaos orb" "Orb of Annulment"
 SetTextColor 255 207 92
 SetBorderColor 255 207 92
 SetBackgroundColor 76 51 12
@@ -155,21 +155,24 @@ PlayEffect Yellow
 MinimapIcon 1 Yellow Circle
 SetFontSize 45
 
-#À hide en "leecher mode, sauf les breach splinter?
 Show
- BaseType "Orb of Augmentation" "breach splinter"
+ BaseType "breach splinter"
  SetFontSize 30
  SetTextColor 0 0 0
  SetBorderColor 0 0 0
- SetBackgroundColor 184 134 11  # Dark golden color
+ SetBackgroundColor 200 0 255
  
-# Highlight Rune Items with Light Green Color
-Hide 
- BaseType "Rune"
- SetFontSize 50
+Show
+Class "Currency" 
+ BaseType "Exalted Orb"
+ SetFontSize 60
  SetTextColor 0 0 0  # Black text color
  SetBorderColor 0 0 0  # Black border color
  SetBackgroundColor 111 255 111  # Light green background
+ PlayAlertSound 2 300
+ PlayEffect Yellow
+ MinimapIcon 1 Yellow Circle
+ 
  
 # Highlight Currency Items with Subtle Brown/Gold Color (Excludes Specific BaseTypes Above)
 Show
